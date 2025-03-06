@@ -1,0 +1,23 @@
+[
+  {
+    "produto": "Jaqueta de Couro",
+    "categoria": "Roupas",
+    "quantidade": 1,
+    "venda": 350.00,
+    "data": "2025-03-05"
+  },
+  {
+    "produto": "Fone de Ouvido Bluetooth",
+    "categoria": "Acessórios",
+    "quantidade": 2,
+    "venda": 400.00,
+    "data": "2025-03-09"
+  },
+  {
+    "produto": "Livro 'A Arte da Guerra'",
+    "categoria": "Livros",
+    "quantidade": 3,
+    "venda": 45.00,
+    "data": "2025-03-10"
+  }
+]

@@ -1,0 +1,38 @@
+[
+      {
+        "produto": "Camiseta Polo",
+        "categoria": "Roupas",
+        "quantidade": 2,
+        "venda": 120.00,
+        "data": "2025-03-01"
+      },
+      {
+        "produto": "Tênis Esportivo",
+        "categoria": "Calçados",
+        "quantidade": 1,
+        "venda": 250.00,
+        "data": "2025-03-02"
+      },
+      {
+        "produto": "Relógio Digital",
+        "categoria": "Acessórios",
+        "quantidade": 3,
+        "venda": 180.00,
+        "data": "2025-03-03"
+      },
+      {
+        "produto": "Mochila de Couro",
+        "categoria": "Acessórios",
+        "quantidade": 1,
+        "venda": 220.00,
+        "data": "2025-03-04"
+      },
+      {
+        "produto": "Jaqueta de Couro",
+        "categoria": "Roupas",
+        "quantidade": 1,
+        "venda": 350.00,
+        "data": "2025-03-05"
+      }
+    ]
+  
