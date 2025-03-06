@@ -16,10 +16,20 @@ def calcular_kpi_total(df: pd.DataFrame) -> pd.DataFrame:
     
     return df
 
+def carregar_dados(df: pd.DataFrame, formato_saida: list):
+    
+    for formato in formato_saida:
+        if formato == 'csv':
+            df.to_csv("Dados_com_total.csv", index=False)
+        if format == 'parquet':
+            df.to_parquet("Dados_com_total_parquet.csv", index=False)
+
+def pipeline_vendas(pasta:str, formato_de_saida: list):
+    data_frame = extrair_dados(pasta)
+    data_frame_calculado = calcular_kpi_total(data_frame)
+    print(carregar_dados(data_frame_calculado, formato_de_saida))
+
 # Código main do programa, fazer os teste das funções aqui
 if __name__ == '__main__':
-    pasta_argumento = 'data'
-    data_frame = extrair_dados(pasta=pasta_argumento)
-    print(calcular_kpi_total(data_frame))
 
-    
+    pipeline_vendas()
